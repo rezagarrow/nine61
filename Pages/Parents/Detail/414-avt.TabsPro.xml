@@ -1,0 +1,31 @@
+<module type="avtTabsPro" version="05.06.03.00">
+    <contentKey />
+    <moduleID>414</moduleID>
+    <alignment />
+    <alltabs>false</alltabs>
+    <border />
+    <cachemethod />
+    <cachetime>0</cachetime>
+    <color />
+    <displayprint>true</displayprint>
+    <displaysyndicate>false</displaysyndicate>
+    <displaytitle>true</displaytitle>
+    <enddate>0001-01-01T00:00:00</enddate>
+    <footer />
+    <header />
+    <iconfile />
+    <inheritviewpermissions>true</inheritviewpermissions>
+    <iswebslice>false</iswebslice>
+    <modulepermissions />
+    <title>Tabs</title>
+    <startdate>0001-01-01T00:00:00</startdate>
+    <uniqueId>113edf7c-97ee-45cf-bd51-0a3b6d40f38a</uniqueId>
+    <visibility>Maximized</visibility>
+    <websliceexpirydate>0001-01-01T00:00:00</websliceexpirydate>
+    <webslicettl>0</webslicettl>
+    <cultureCode />
+    <modulesettings />
+    <tabmodulesettings />
+    <definition>avt.TabsPro</definition>
+    <moduledefinition>avt.TabsPro</moduledefinition>
+</module>
