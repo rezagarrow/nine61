@@ -1,0 +1,100 @@
+{
+  "Name": "Child",
+  "Description": "Creates a new record of type Child",
+  "HttpMethod": "POST",
+  "IsEnabled": true,
+  "OrderIndex": 13,
+  "CrossDomainPolicy": "PortalAliasesOnly",
+  "Inputs": [
+    {
+      "Name": "Name",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 0,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": [
+        {
+          "Data": "{\"Message\":\"Name is required.\"}",
+          "Type": "default-required",
+          "IsDeleted": false,
+          "IsEnabled": false,
+          "OrderIndex": 0
+        }
+      ]
+    },
+    {
+      "Name": "Age",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 1,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
+    }
+  ],
+  "Actions": [
+    {
+      "ActionType": "PlantAnApp.CreateEntity.0.Child",
+      "OrderIndex": 0,
+      "Parameters": {
+        "OutputToken": "CreatedRecordId",
+        "Name": "[Name]",
+        "Age": "[Age]"
+      },
+      "IsEnabled": true,
+      "ExecutionType": "OnExecute",
+      "Metadata": {
+        "PAP_InternalIdentifier": "Api.CreateEntity",
+        "EntityIdentifier": "Child"
+      }
+    },
+    {
+      "ActionType": "PlantAnApp.ReadEntity.0.Child",
+      "OrderIndex": 1,
+      "Parameters": {
+        "RecordId": "[CreatedRecordId]",
+        "OutputToken": "CreatedRecord"
+      },
+      "IsEnabled": true,
+      "ExecutionType": "OnExecute",
+      "Metadata": {
+        "PAP_InternalIdentifier": "Api.ReadEntity",
+        "EntityIdentifier": "Child"
+      }
+    },
+    {
+      "ActionType": "JsonObject",
+      "OrderIndex": 2,
+      "Parameters": {
+        "HttpCode": "201 Created",
+        "Fields": [
+          {
+            "name": "Id",
+            "value": "[CreatedRecordId]"
+          },
+          {
+            "name": "Name",
+            "value": "[CreatedRecord:Name]"
+          },
+          {
+            "name": "Age",
+            "value": "[CreatedRecord:Age]"
+          }
+        ],
+        "Headers": [
+          {
+            "name": "Location",
+            "value": "http://rezadnn961.test.forest.dnnsharp.com/api/Child?recordId=[CreatedRecordId]"
+          }
+        ]
+      },
+      "IsEnabled": true,
+      "ExecutionType": "OnExecute",
+      "Metadata": {
+        "PAP_InternalIdentifier": "Api.Response"
+      }
+    }
+  ],
+  "OnErrorActions": []
+}
