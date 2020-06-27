@@ -31,7 +31,7 @@
             <rolename>Admins</rolename>
         </permission>
     </modulepermissions>
-    <title>avt.Action Form</title>
+    <title>Test Async</title>
     <startdate>0001-01-01T00:00:00</startdate>
     <uniqueId>9052c511-c0f2-4ef7-8694-ee0a9b5bab9c</uniqueId>
     <visibility>Maximized</visibility>
