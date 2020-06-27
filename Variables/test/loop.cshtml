@@ -1,9 +1,12 @@
 @inherits avt.MyTokens.Core.ParsingEngine.RazorTemplate
 @{
 var i = 0;
-while (i < 500000)
+while (i < 5000000)
     {
     i += 1;
-   if (i == 500000) {<p>Line @i</p>};
-    }
+   if (i == 5000000) {<p>Line @i</p>};
+    }else
+  {
+  <p>Still Running</p>
+  }
 }
