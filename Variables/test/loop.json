@@ -1,0 +1,20 @@
+{
+  "id": 2,
+  "namespace": {
+    "id": 1,
+    "portalId": 0,
+    "name": "test"
+  },
+  "name": "loop",
+  "description": "",
+  "parser": "",
+  "defaultValue": "",
+  "cacheTime": 0,
+  "cacheLayer": "Global",
+  "src": {
+    "language": "csharp",
+    "additionalAssemblies": "",
+    "debug": false,
+    "type": "razor"
+  }
+}
