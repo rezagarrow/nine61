@@ -28,9 +28,22 @@
               "RecursionCount": "1"
             },
             "$_isOpen": false,
-            "$_uid": "action15935459047638516"
+            "$_uid": "action15935460053653687",
+            "$_isLoaded": true
           }
         ]
+      },
+      "IsEnabled": true,
+      "ExecutionType": "OnExecute",
+      "Metadata": {}
+    },
+    {
+      "ActionType": "RawResponse",
+      "OrderIndex": 1,
+      "Parameters": {
+        "Content": "[result]",
+        "HttpCode": "",
+        "Headers": ""
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
