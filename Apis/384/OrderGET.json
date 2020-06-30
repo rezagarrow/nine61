@@ -3,7 +3,7 @@
   "Description": "Returns the information of a Order record in JSON object format.",
   "HttpMethod": "GET",
   "IsEnabled": true,
-  "OrderIndex": 22,
+  "OrderIndex": 30,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
