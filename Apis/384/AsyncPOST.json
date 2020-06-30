@@ -1,0 +1,41 @@
+{
+  "Name": "Async",
+  "Description": "Runs async execution of a token that takes a while to finish looping.",
+  "HttpMethod": "POST",
+  "IsEnabled": true,
+  "OrderIndex": 0,
+  "CrossDomainPolicy": "Public",
+  "Inputs": [],
+  "Actions": [
+    {
+      "ActionType": "ExecuteActionsAsync",
+      "OrderIndex": 0,
+      "Parameters": {
+        "ActionList": [
+          {
+            "Id": -1,
+            "ActionErrorMessage": null,
+            "ActionType": "ApplyTokens",
+            "Condition": null,
+            "Description": null,
+            "Parameters": {
+              "Tokens": [
+                {
+                  "value": "[test:loop='running']",
+                  "name": "result"
+                }
+              ],
+              "RecursionCount": "1"
+            },
+            "$_isOpen": false,
+            "$_uid": "action15935459047638516"
+          }
+        ]
+      },
+      "IsEnabled": true,
+      "ExecutionType": "OnExecute",
+      "Metadata": {}
+    }
+  ],
+  "OnErrorActions": []
+}
