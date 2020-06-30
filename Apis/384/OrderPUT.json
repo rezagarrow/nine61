@@ -3,7 +3,7 @@
   "Description": "Updates the information of the provided Order record",
   "HttpMethod": "PUT",
   "IsEnabled": true,
-  "OrderIndex": 23,
+  "OrderIndex": 31,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
