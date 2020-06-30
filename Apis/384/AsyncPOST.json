@@ -41,7 +41,7 @@
       "ActionType": "RawResponse",
       "OrderIndex": 1,
       "Parameters": {
-        "Content": "[result]",
+        "Content": "[result='running']",
         "HttpCode": "",
         "Headers": ""
       },
