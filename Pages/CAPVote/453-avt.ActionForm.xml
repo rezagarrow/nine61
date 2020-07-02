@@ -25,7 +25,7 @@
             <rolename>Administrators</rolename>
         </permission>
     </modulepermissions>
-    <title>avt.Action Form</title>
+    <title>Vote Form</title>
     <startdate>0001-01-01T00:00:00</startdate>
     <uniqueId>b5ff515b-231e-49eb-8d1b-10abdf1e817a</uniqueId>
     <visibility>Maximized</visibility>
