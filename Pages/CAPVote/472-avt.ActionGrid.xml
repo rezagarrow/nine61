@@ -25,7 +25,7 @@
             <rolename>Administrators</rolename>
         </permission>
     </modulepermissions>
-    <title>avt.ActionGrid</title>
+    <title>Razor Grid</title>
     <startdate>0001-01-01T00:00:00</startdate>
     <uniqueId>a473eaa1-994e-4892-8dd0-3a8549f0cbc1</uniqueId>
     <visibility>Maximized</visibility>
