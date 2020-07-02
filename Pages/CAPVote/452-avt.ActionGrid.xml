@@ -25,7 +25,7 @@
             <rolename>Administrators</rolename>
         </permission>
     </modulepermissions>
-    <title>avt.ActionGrid</title>
+    <title>Vote Results Grid</title>
     <startdate>0001-01-01T00:00:00</startdate>
     <uniqueId>5837fcda-f92d-40e3-be0b-d54c0323009c</uniqueId>
     <visibility>Maximized</visibility>
