@@ -5,7 +5,7 @@
     <alltabs>false</alltabs>
     <border />
     <cachemethod>MemoryModuleCachingProvider</cachemethod>
-    <cachetime>1200</cachetime>
+    <cachetime>0</cachetime>
     <color />
     <containersrc />
     <displayprint>false</displayprint>
@@ -30,10 +30,26 @@
     <uniqueId>7967c2ca-d3cb-4a69-9ce1-5132b3de8114</uniqueId>
     <visibility>Maximized</visibility>
     <websliceexpirydate>0001-01-01T00:00:00</websliceexpirydate>
-    <webslicetitle />
     <webslicettl>0</webslicettl>
     <cultureCode />
-    <modulesettings />
+    <modulesettings>
+        <modulesetting>
+            <settingname>HtmlText_ReplaceTokens</settingname>
+            <settingvalue>True</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>HtmlText_UseDecorate</settingname>
+            <settingvalue>True</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>WorkFlowID</settingname>
+            <settingvalue>-1</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>HtmlText_SearchDescLength</settingname>
+            <settingvalue>100</settingvalue>
+        </modulesetting>
+    </modulesettings>
     <tabmodulesettings />
     <definition>DNN_HTML</definition>
     <moduledefinition>Text/HTML</moduledefinition>
