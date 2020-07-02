@@ -1,4 +1,5 @@
 <module type="ActionGrid" version="05.06.04.00">
+    <contentKey />
     <moduleID>452</moduleID>
     <alignment />
     <alltabs>false</alltabs>
@@ -26,15 +27,13 @@
     </modulepermissions>
     <title>avt.ActionGrid</title>
     <startdate>0001-01-01T00:00:00</startdate>
-    <uniqueId>6c3471d6-6236-42c5-8e2f-5da5fec11883</uniqueId>
+    <uniqueId>5837fcda-f92d-40e3-be0b-d54c0323009c</uniqueId>
     <visibility>Maximized</visibility>
     <websliceexpirydate>0001-01-01T00:00:00</websliceexpirydate>
-    <webslicetitle />
     <webslicettl>0</webslicettl>
     <cultureCode />
     <modulesettings />
     <tabmodulesettings />
     <definition>Action Grid</definition>
     <moduledefinition>avt.ActionGrid</moduledefinition>
-    <content type="ActionGrid" version="05.06.04.00"><![CDATA[&lt;ActionGrid /&gt;]]></content>
 </module>
