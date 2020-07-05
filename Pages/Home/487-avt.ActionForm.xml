@@ -1,4 +1,5 @@
 <module type="ActionForm" version="05.06.09.00">
+    <contentKey />
     <moduleID>487</moduleID>
     <alignment />
     <alltabs>false</alltabs>
@@ -26,10 +27,9 @@
     </modulepermissions>
     <title>avt.Action Form</title>
     <startdate>0001-01-01T00:00:00</startdate>
-    <uniqueId>da64dfcf-df80-498d-8e07-d1b43b90f7ae</uniqueId>
+    <uniqueId>711124b4-684b-4284-b3fa-38e4ac2f5e0b</uniqueId>
     <visibility>Maximized</visibility>
     <websliceexpirydate>0001-01-01T00:00:00</websliceexpirydate>
-    <webslicetitle />
     <webslicettl>0</webslicettl>
     <cultureCode />
     <modulesettings />
