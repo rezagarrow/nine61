@@ -1,4 +1,4 @@
-<module type="ActionForm" version="05.06.09.00">
+<module type="ActionForm" version="05.06.13.00">
     <contentKey />
     <moduleID>485</moduleID>
     <alignment />
@@ -7,7 +7,6 @@
     <cachemethod />
     <cachetime>0</cachetime>
     <color />
-    <containersrc />
     <displayprint>true</displayprint>
     <displaysyndicate>false</displaysyndicate>
     <displaytitle>true</displaytitle>
