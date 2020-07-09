@@ -1,4 +1,4 @@
-<module type="avtTabsPro" version="05.06.03.00">
+<module type="avtTabsPro" version="05.06.04.00">
     <contentKey />
     <moduleID>486</moduleID>
     <alignment />
@@ -7,7 +7,6 @@
     <cachemethod />
     <cachetime>0</cachetime>
     <color />
-    <containersrc />
     <displayprint>true</displayprint>
     <displaysyndicate>false</displaysyndicate>
     <displaytitle>true</displaytitle>
