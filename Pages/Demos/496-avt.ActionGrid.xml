@@ -1,0 +1,31 @@
+<module type="ActionGrid" version="05.06.10.00">
+    <contentKey />
+    <moduleID>496</moduleID>
+    <alignment />
+    <alltabs>false</alltabs>
+    <border />
+    <cachemethod />
+    <cachetime>0</cachetime>
+    <color />
+    <displayprint>true</displayprint>
+    <displaysyndicate>false</displaysyndicate>
+    <displaytitle>true</displaytitle>
+    <enddate>0001-01-01T00:00:00</enddate>
+    <footer />
+    <header />
+    <iconfile />
+    <inheritviewpermissions>true</inheritviewpermissions>
+    <iswebslice>false</iswebslice>
+    <modulepermissions />
+    <title>Listing</title>
+    <startdate>0001-01-01T00:00:00</startdate>
+    <uniqueId>837b00c7-cd94-4b69-8ec5-d0135073237d</uniqueId>
+    <visibility>Maximized</visibility>
+    <websliceexpirydate>0001-01-01T00:00:00</websliceexpirydate>
+    <webslicettl>0</webslicettl>
+    <cultureCode />
+    <modulesettings />
+    <tabmodulesettings />
+    <definition>Action Grid</definition>
+    <moduledefinition>avt.ActionGrid</moduledefinition>
+</module>
