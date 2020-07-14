@@ -1,0 +1,17 @@
+{
+  "id": 11,
+  "namespace": {
+    "id": 1,
+    "portalId": 0,
+    "name": "test"
+  },
+  "name": "PostFoo",
+  "description": "Test Posting",
+  "parser": "<parser><type>string</type><replace>false</replace><decodeHtml>false</decodeHtml></parser>",
+  "defaultValue": "",
+  "cacheTime": 5,
+  "cacheLayer": "UserSession",
+  "src": {
+    "type": "http"
+  }
+}
