@@ -1,10 +1,13 @@
 <module type="ActionGrid" version="05.06.11.00">
+    <contentKey />
     <moduleID>522</moduleID>
     <alignment />
     <alltabs>false</alltabs>
     <border />
+    <cachemethod />
     <cachetime>0</cachetime>
     <color />
+    <containersrc />
     <displayprint>true</displayprint>
     <displaysyndicate>false</displaysyndicate>
     <displaytitle>true</displaytitle>
@@ -17,13 +20,13 @@
     <modulepermissions />
     <title>Listing</title>
     <startdate>0001-01-01T00:00:00</startdate>
-    <uniqueId>42c20f1b-1854-4325-9763-1ea6b7ebfd3f</uniqueId>
+    <uniqueId>9984f1df-f625-4359-8dc1-9b629cc3d8f4</uniqueId>
     <visibility>Maximized</visibility>
     <websliceexpirydate>0001-01-01T00:00:00</websliceexpirydate>
     <webslicettl>0</webslicettl>
+    <cultureCode />
     <modulesettings />
     <tabmodulesettings />
     <definition>Action Grid</definition>
     <moduledefinition>avt.ActionGrid</moduledefinition>
-    <content type="ActionGrid" version="05.06.11.00"><![CDATA[&lt;ActionGrid /&gt;]]></content>
 </module>
